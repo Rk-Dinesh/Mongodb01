@@ -23,7 +23,7 @@ ANS:db.data.find().forEach(function(e){print(e.product_name + "," + e.product_ma
 
 TASK 06:
 Find the product with a row id of 10
-ANS:db.data.find({ _id: ObjectId("64a4175450f4f1b32ff32744")});
+ANS:db.data.find({ _id: 10});
 
 TASK 07:
  Find only the product name and product material
